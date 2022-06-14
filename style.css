@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(86, 86, 86);
+    color: white;
+}
+
+.clock{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.clock h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.clock-container{ 
+    /* bu kısımıda saat kutucuklarını yan yana alıyoruz ve ekrana ortalıyoruz */
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    align-content: center;
+}
+
+.clock-items{
+    /* bu kısımda saat,dakika ve saniye ksımlarının görünümünü düzenliyoruz */
+    width: 32%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-right: 3%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+}
+
+#date{
+    /* tarih ksımının görünümünü düzenlediğimiz ksım */
+    font-family: 'Orbitron', sans-serif;
+    font-size: 26px;
+    margin-top: 5%;
+    letter-spacing: 5px;
+}
